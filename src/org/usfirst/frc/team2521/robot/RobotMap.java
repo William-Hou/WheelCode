@@ -8,6 +8,7 @@ package org.usfirst.frc.team2521.robot;
  */
 public class RobotMap {
 	
+	public static int LEFT_STICK_PORT = 0;
 	public static int FRONT_RIGHT_MOTOR= 10;
 	
 }	

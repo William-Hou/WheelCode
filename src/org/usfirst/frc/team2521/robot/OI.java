@@ -3,6 +3,7 @@ package org.usfirst.frc.team2521.robot;
 import org.usfirst.frc.team2521.robot.RobotMap;
 
 
+
 import edu.wpi.first.wpilibj.Joystick;
 
 
@@ -12,15 +13,15 @@ import edu.wpi.first.wpilibj.Joystick;
  */
 public class OI {
 	
-	private final Joystick right;
+	private final Joystick left;
 	
 	private OI(){
 	
-		right = new Joystick(RobotMap.FRONT_RIGHT_MOTOR);
+		left = new Joystick(RobotMap.LEFT_STICK_PORT);
 	}
 	
 	public  Joystick getJoystick() {
-		return right;
+		return left;
 	}
 	
 	public static OI getInstance() {
